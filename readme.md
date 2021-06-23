@@ -9,11 +9,11 @@ https://www.dotphoton.com/
 - For writing compressed files, a valid License. 
 
 ## Installation
-First download the WHL file directly from the main folder of this repository or from the Release section. 
-Once the file is downloaded in order to install pyJetraw run the following command:
+First download the WHL file from [latest release](https://github.com/Jetraw/pyJetraw/releases/latest), or browse [previous releases](https://github.com/Jetraw/Jetraw/releases). 
+Once the WHL file is downloaded in order to install pyJetraw run the following command:
 
 ```python
-pip install JetRaw-0.9.0-py3-none-any.whl
+pip install JetRaw-x.y.z-py3-none-any.whl
 ```
 
 ## Usage
