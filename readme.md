@@ -9,7 +9,7 @@ https://www.dotphoton.com/
 - For writing compressed files, a valid License. 
 
 ## Installation
-First download the WHL file from [latest release](https://github.com/Jetraw/pyJetraw/releases/latest), or browse [previous releases](https://github.com/Jetraw/pyJetraw/releases). 
+First download the WHL file from [latest release](https://github.com/Jetraw/pyJetraw/releases/download/21.06.23.2/JetRaw-0.9.1-py3-none-any.whl), or browse [previous releases](https://github.com/Jetraw/pyJetraw/releases). 
 Once the WHL file is downloaded in order to install pyJetraw run the following command:
 
 ```python
@@ -53,7 +53,5 @@ tif.close()
 ```
 
 ## Contact
-
-If you have any request or doubt please do not hesitate to contact us to:
-https://dotphoton.com/contact
+Feel free to use the [issues section](https://github.com/Jetraw/pyJetraw/issues) to report bugs or request new features. You can also ask questions and give comments by visiting the [discussions](https://github.com/Jetraw/pyJetraw/discussions), or following the contact information at https://jetraw.com.
 
