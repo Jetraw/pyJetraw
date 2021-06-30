@@ -3,9 +3,9 @@
 This is a Python module to read and write TIFF files with JetRaw compression. For more info visit
 https://www.dotphoton.com/
 
-
 ## Requirements
-- Jetraw installed on a Windows computer.
+- Jetraw installed on a Windows computer.<br/>
+*Note:* if you do not have Jetraw installed visit https://www.jetraw.com/downloads/software and for usage information https://github.com/Jetraw/Jetraw
 - For writing compressed files, a valid License. 
 
 ## Installation
