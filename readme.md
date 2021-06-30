@@ -1,6 +1,5 @@
-# pyJetRaw, the python module for JetRaw  
-
-This is a Python module to read and write TIFF files with JetRaw compression. For more info visit
+# pyJetRaw, the Python Module for Jetraw  
+This is the Jetraw Python Module which allows you to read and write TIFF files using Jetraw's compression. For more info visit
 https://www.dotphoton.com/
 
 ## Requirements
