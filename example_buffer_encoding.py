@@ -18,7 +18,7 @@ for page in range(image.shape[0]):
 
 # load the calibration file to be used to dpcore prepare the image
 path = pathlib.Path(__file__).parent.absolute()
-dpcore.load_parameters(os.path.join(path, "test\\pco_3a2dd3a.dat"))
+dpcore.load_parameters(os.path.join(path, "pco_3a2dd3a.dat"))
 image = image.astype(np.uint16)
 
 # encode each page using buffers
