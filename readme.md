@@ -3,17 +3,29 @@ This is the Jetraw Python Module which allows you to read and write TIFF files u
 https://www.dotphoton.com/
 
 ## Requirements
-- Jetraw installed on a Windows computer.<br/>
+- Windows 10 64 bits or Linux
+- Jetraw installed.<br/>
 *Note:* if you do not have Jetraw installed visit https://www.jetraw.com/downloads/software and for usage information https://github.com/Jetraw/Jetraw
 - For writing compressed files, a valid License. 
 
-## Installation
+## Installation Windows
 First download the WHL file from [latest release](https://github.com/Jetraw/pyJetraw/releases/download/21.06.23.2/JetRaw-0.9.1-py3-none-any.whl), or browse [previous releases](https://github.com/Jetraw/pyJetraw/releases). 
 Once the WHL file is downloaded in order to install pyJetraw run the following command:
 
 ```python
 pip install JetRaw-x.y.z-py3-none-any.whl
 ```
+
+## Installation Linux
+The WHL file needs to be installed like in the previous section but an extra step is necessary. 
+
+You need to add to the LD_LIBRARY_PATH variable the dpcore and jetraw libraries location so pyDpcore is able to find them:
+
+```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path_to_jetraw_folder/lib/
+```
+
+It is recommended to **add this instruction in your bashrc (/home/user/.bashrc)** file, then everytime a bash environment is created everything is set up to use pyJetraw. Remember that if you are using an IDE to run python, you will need to launch it from the Terminal. If not the enviroment will not be correctly configured.  
 
 ## Usage
 Here are some code snippets of how the module would typically be used.
