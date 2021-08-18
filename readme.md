@@ -1,15 +1,14 @@
-# pyJetRaw, the python module for JetRaw  
-
-This is a Python module to read and write TIFF files with JetRaw compression. For more info visit
+# pyJetRaw, the Python Module for Jetraw  
+This is the Jetraw Python Module which allows you to read and write TIFF files using Jetraw's compression. For more info visit
 https://www.dotphoton.com/
 
-
 ## Requirements
-- Jetraw installed on a Windows computer.
+- Jetraw installed on a Windows computer.<br/>
+*Note:* if you do not have Jetraw installed visit https://www.jetraw.com/downloads/software and for usage information https://github.com/Jetraw/Jetraw
 - For writing compressed files, a valid License. 
 
 ## Installation
-First download the WHL file from [latest release](https://github.com/Jetraw/pyJetraw/releases/latest), or browse [previous releases](https://github.com/Jetraw/Jetraw/releases). 
+First download the WHL file from [latest release](https://github.com/Jetraw/pyJetraw/releases/download/21.06.23.2/JetRaw-0.9.1-py3-none-any.whl), or browse [previous releases](https://github.com/Jetraw/pyJetraw/releases). 
 Once the WHL file is downloaded in order to install pyJetraw run the following command:
 
 ```python
@@ -53,7 +52,5 @@ tif.close()
 ```
 
 ## Contact
-
-If you have any request or doubt please do not hesitate to contact us to:
-https://dotphoton.com/contact
+Feel free to use the [issues section](https://github.com/Jetraw/pyJetraw/issues) to report bugs or request new features. You can also ask questions and give comments by visiting the [discussions](https://github.com/Jetraw/pyJetraw/discussions), or following the contact information at https://jetraw.com.
 
