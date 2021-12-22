@@ -45,14 +45,14 @@ image_stack = jetraw.imread('temp.tif')
 image = jetraw.imread('temp.tif', key=range(4, 40, 2))
 
 # Iterate over all pages in TIFF file
-with jetraw.TiffReader('temp.tif') as tif:
-    for page in tif.pages:
-        image = page.read_page(page)
+with jetraw.TiffReader('temp.tif') as tif_reader:
+    for page in range(tif_reader.pages):
+        image = tif_reader.read(page)
 
 # Successively write the frames of one contiguous series to a TIFF file
-with jetraw.TiffWriter('temp.tif', description='JetRaw rocks!') as tif:
+with jetraw.TiffWriter('temp.tif', description='JetRaw rocks!') as tif_writer:
     for frame in data:
-        tif.write(frame)
+        tif_writer.write(frame)
 
 # Get information from JetRaw-compressed TIFF without reading data.
 tif = jetraw.TiffReader('temp.tif')
